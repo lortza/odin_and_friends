@@ -1,0 +1,1 @@
+Viking Code School demo project that explains the MVC nature of node. The filenames have been changed from conventional names like `views/index.hbs` and `models/gods.js` to `views/index_view.hbs` and `models/gods_model.js` to make the movement of data across files more clear.

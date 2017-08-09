@@ -5,7 +5,7 @@ class God {
   }
 }
 
-const gods = [
+const gods_const_from_model = [
   new God("Baldur", "Beauty", "Innocence", "Peace", "Zebras", "Xerox", "Xercies"),
   new God("Bragi", "Poetry", "Music", "Harp"),
   new God("Dagr", "Daytime", "Talkshows"),
@@ -18,5 +18,5 @@ const gods = [
 
 module.exports = {
   God,
-  gods
+  gods_const_from_model
 }

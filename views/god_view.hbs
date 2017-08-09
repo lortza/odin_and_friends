@@ -1,0 +1,7 @@
+<h1>{{god_for_show_page_view.name}}</h1>
+<p>Hello, I'm {{god_for_show_page_view.name}} and I am the god of these things:</p>
+<ul>
+  {{#each god_for_show_page_view.domains as |domain|}}
+  <li>{{domain}}</li>
+  {{/each}}
+</ul>
